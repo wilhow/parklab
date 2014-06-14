@@ -1,0 +1,13 @@
+<script>
+  var user_id = {{ user_id|tojson }}
+  var user_name = {{ user_name|tojson }}
+  var user_email = {{ user_email|tojson }}
+  var user_url = {{ user_url|tojson }}
+</script>
+<b>USER ID:</b><a href="#" onclick="alert(user_id)">REVEAL</a>
+<br/>
+<b>NAME:</b><a href="#" onclick="alert(user_name)">REVEAL</a>
+<br/>
+<b>EMAIL:</b><a href="#" onclick="alert(user_email)">REVEAL</a>
+<br/>
+<b>URL:</b><a href="#" onclick="alert(user_url)">REVEAL</a>
