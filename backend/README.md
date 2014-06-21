@@ -25,7 +25,7 @@ Quick Start for Development
 
 ###First Run:
 * pip install virtualenv
-* git clone [git@github.com:freedomgamees/parklab.git](git@github.com:freedomgamees/parklab.git])
+* git clone <your fork of the repository>
 * cd parklab
 * virtualenv venv
 * source venv/bin/activate
